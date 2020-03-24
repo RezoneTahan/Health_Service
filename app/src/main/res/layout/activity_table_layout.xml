@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".TableLayout">
+
+    <TableRow
+        android:id="@+id/titleRowId"
+        android:layout_marginTop="20dp"
+
+
+        >
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:text="Report coronavirus cases"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+
+
+            />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:id="@+id/headerId"
+        android:background="#CDDC39"
+
+
+
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="Country "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="Total cases "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="Total death"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/row3Id"
+        android:background="#F44336"
+
+
+
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="China "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="81171 "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="3277"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4Id"
+        android:background="#F44336"
+
+
+
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="Italy "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="63927"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="6077"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5Id"
+        android:background="#F44336"
+
+
+
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="USA "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="49594"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="622"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row6Id"
+        android:background="#F44336"
+
+
+
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="Spain "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="39657 "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="2800"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row7Id"
+        android:background="#F44336"
+
+
+
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="Bangladesh "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="40 "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:layout_height="20dp"
+            android:text="5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+
+            />
+
+
+    </TableRow>
+
+
+</TableLayout>
